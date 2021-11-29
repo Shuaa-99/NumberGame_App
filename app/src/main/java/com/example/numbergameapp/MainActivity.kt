@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
+
     val myMessage = ArrayList<String>()
     var count = 4
     val randomNum = Random.nextInt(10)
@@ -22,7 +23,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-myLayout = findViewById(R.id.clMain)
         txt_Enter = findViewById(R.id.numGuessed)
         button_click = findViewById(R.id.bttn_click)
 

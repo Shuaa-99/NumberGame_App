@@ -13,7 +13,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Number Game"
+        android:text="Numbers Game"
         android:textSize="40dp"
         android:textAlignment="center"
         android:textColor="#350480"

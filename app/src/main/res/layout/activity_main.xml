@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/clMain"
+    
     android:background="#A9A9"
     tools:context=".MainActivity">
 
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Guess a number"
+            android:hint="Enter your number"
             android:inputType="number" />
 
         <Button
