@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     val myMessage = ArrayList<String>()
     var count = 4
     val randomNum = Random.nextInt(10)
-   
+
     private lateinit var button_click: Button
     private lateinit var txt_Enter: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                }
             else if (txt_Enter.text.toString().toInt() != randomNum && count > 1){
                 count -=1
-                myMessage.add("Your guess ${txt_Enter.text.toString()} is wrong :( try again $randomNum")
+                myMessage.add("Your guess ${txt_Enter.text.toString()} is wrong :( try again ")
                 myMessage.add("Remember you have $count attempts left ")
                 val myRV = findViewById<RecyclerView>(R.id.rvGuesses)
                 myRV.adapter = RecyclerViewAdapter(myMessage)
